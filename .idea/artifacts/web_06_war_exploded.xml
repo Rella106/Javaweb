@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="web_06:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/web_06_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="web_06" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="c3p0-0.9.1.2.jar" module-name="web_06" />
+          <element id="library" level="module" name="commons-beanutils-1.8.3.jar" module-name="web_06" />
+          <element id="library" level="module" name="commons-dbutils-1.4.jar" module-name="web_06" />
+          <element id="library" level="module" name="commons-fileupload-1.2.2.jar" module-name="web_06" />
+          <element id="library" level="module" name="commons-io-2.2.jar" module-name="web_06" />
+          <element id="library" level="module" name="commons-logging-1.1.1.jar" module-name="web_06" />
+          <element id="library" level="module" name="javax.mail-1.5.1.jar" module-name="web_06" />
+          <element id="library" level="module" name="jstl.jar" module-name="web_06" />
+          <element id="library" level="module" name="mysql-connector-java-5.0.8-bin.jar" module-name="web_06" />
+          <element id="library" level="module" name="standard.jar" module-name="web_06" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/jstl.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/standard.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/c3p0-0.9.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-io-2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/javax.mail-1.5.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-dbutils-1.4.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-logging-1.1.1.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-beanutils-1.8.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-fileupload-1.2.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.0.8-bin.jar" />
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="library" level="application_server_libraries" name="Tomcat 7.0.62" />
+      <element id="javaee-facet-resources" facet="web_06/web/Web" />
+    </root>
+  </artifact>
+</component>
